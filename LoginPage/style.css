@@ -1,5 +1,6 @@
-*{
-    font-family:'Poppins',sans-serif,;
+:root{
+    font-size: small;
+    font-family:'Poppins';
 }
 body{
     background-color: rgba(53, 113, 70, 1);
@@ -55,6 +56,7 @@ i{
     border: none;
     border-radius: 30px;
     font-size: 15px;
+    font-weight: bold;
     height: 45px;
     outline: none;
     width: 100%;

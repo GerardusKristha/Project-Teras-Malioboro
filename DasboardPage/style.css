@@ -1,3 +1,17 @@
+:root{
+    font-size: larger;
+}
 body{
     background-color: rgba(234, 247, 234, 1);
+}
+
+.leftBar{
+    position: absolute;
+    left: -50px;
+    top: -6px;
+    width: 245px;
+    height: 100vh;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #316941;
 }
