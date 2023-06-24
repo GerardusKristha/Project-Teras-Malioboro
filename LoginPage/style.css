@@ -1,37 +1,43 @@
-:root{
+:root {
     font-size: small;
-    font-family:'Poppins';
+    font-family: 'Poppins';
 }
-body{
+
+body {
     background-color: rgba(53, 113, 70, 1);
 }
-.box{
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
 }
-.container{
+
+.container {
     width: 350px;
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
 }
-span{
+
+span {
     color: rgba(193, 230, 193, 1);
-    font-size:  small;
+    font-size: small;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0 ;
+    padding: 10px 0 10px 0;
 }
-header{
+
+header {
     color: rgba(193, 230, 193, 1);
     display: flex;
     justify-content: center;
     padding: 10px 0 10px 0;
     padding-bottom: 20px;
 }
-.input-field .input{
+
+.input-field .input {
     height: 45px;
     width: 87%;
     border: none;
@@ -39,32 +45,35 @@ header{
     color: rgba(193, 230, 193, 1);
     font-size: 15px;
     padding: 0 0 0 45px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(3, 1, 1, 0.1);
     outline: none;
 }
-i{
+
+i {
     position: relative;
     top: -33px;
     left: 17px;
     color: rgba(193, 230, 193, 1);
 }
-::-webkit-input-placeholder{
+
+::-webkit-input-placeholder {
     color: rgba(193, 230, 193, 1);
 }
 
-.submit{
+.submit {
     border: none;
     border-radius: 30px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: b;
     height: 45px;
     outline: none;
     width: 100%;
-    color:rgba(53, 113, 70, 1);
+    color: rgba(53, 113, 70, 1);
     background: rgba(193, 230, 193, 1);
     cursor: pointer;
-    transition: .3s ;
+    transition: .3s;
 }
-.submit:hover{
+
+.submit:hover {
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
 }

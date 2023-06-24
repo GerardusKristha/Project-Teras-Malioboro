@@ -34,3 +34,17 @@ body {
     font-weight: 600;
     word-wrap: break-word;
 }
+
+.input-field .input {
+    color: #d6e9da;
+    width: 664px;
+    height: 35.90px;
+    left: px;
+    top: 0px;
+    background: rgba(49, 105, 65, 0.34);
+    border-radius: 10px
+}
+
+::-webkit-input-placeholder {
+    color: rgba(214, 233, 218, 1);
+}
