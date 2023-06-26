@@ -1,8 +1,11 @@
 :root{
-    font-size: larger;
+    font-size: small;
+    font-family: 'Poppins';
 }
 body{
     background-color: rgba(234, 247, 234, 1);
+    margin:0;
+    padding: 0;
 }
 
 .leftBar{
@@ -14,4 +17,59 @@ body{
     flex-shrink: 0;
     border-radius: 25px;
     background: #316941;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #316941;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgba(234, 247, 234, 1);
+    position: relative;
+    padding: 40px 0 40px 40px;
+}
+
+nav ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(234, 247, 234, 1);
+    border-radius: 20px 0 0 20px;
+    z-index: -1;
+    transition: all 400ms ease-in-out;
+}
+
+nav ul li a:hover{
+    color: #316941;
+}
+
+nav ul li a:hover:before{
+    width: 95%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: 25px auto;
+    overflow: hidden;
+}
+.logo img{
+    width: 50%; 
+    height: 50%
 }

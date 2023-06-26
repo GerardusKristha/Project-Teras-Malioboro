@@ -8,6 +8,13 @@ body {
     background-color: rgba(214, 233, 218, 1);
 }
 
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
 .cardForm {
     width: 1440px;
     height: 963px;
@@ -16,6 +23,8 @@ body {
 }
 
 .titleBar {
+    position: relative;
+
     width: 1104px;
     height: 58px;
     flex-shrink: 0;
