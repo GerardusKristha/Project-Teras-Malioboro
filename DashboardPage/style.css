@@ -316,7 +316,7 @@ body {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    padding: 10px 25px;
+    padding: 8px 25px;
     font-size: 14px;
     font-weight: 600;
 }
@@ -328,7 +328,7 @@ body {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    padding: 10px 25px;
+    padding: 8px 25px;
     font-size: 14px;
     font-weight: 600;
 }
@@ -343,15 +343,16 @@ body {
     display: flex;
 }
 
-.item_tenant p {
+.label_tenant {
     position: relative;
-    min-width: 300px;
+    min-width: 100vh;
     min-height: 50px;
     left: 30px;
+    right: 10px;
     display: flex;
     justify-content: left;
     align-items: center;
     color: rgba(234, 247, 234, 1);
-    font-size: medium;
-    font-weight: 400;
+    font-size:large;
+    font-weight: 500;
 }
