@@ -79,7 +79,51 @@
 
     <div class="main-content">
       <div class="container">
-        <h1>Content</h1>
+        <div class="search">
+          <div class="input">
+            <i class="bx bx-search-alt"></i>
+            <form action="" class="search_bar">
+              <input type="text" placeholder="Cari..." id="mysearch" />
+            </form>
+          </div>
+        </div>
+
+        <div class="tenant_list">
+          <table class="table_content">
+            <div class="item_list">
+              <tr class="item_tenant">
+                <td>
+                  <p>Tenant 1</p>
+                </td>
+                <td>
+                  <form action="#" method="post">
+                    <input
+                      type="submit"
+                      value="Edit"
+                      id="edit_tenant"
+                      class="btn_editTenant"
+                    />
+                  </form>
+                </td>
+                <td>
+                  <form action="#" method="post">
+                    <input
+                      type="submit"
+                      value="Hapus"
+                      id="delete_tenant"
+                      class="btn_deleteTenant"
+                    />
+                  </form>
+                </td>
+              </tr>
+            </div>
+          </table>
+        </div>
+        <div class="btn_add">
+          <form action="#" method="post">
+            <input type="submit" value="Tambah Tenant" class="add_tenant" />
+          </form>
+        </div>
       </div>
     </div>
 
