@@ -61,7 +61,7 @@ body {
 }
 
 .logo_name {
-    font-size: Medium;
+    font-weight: 600;
     width: max-content;
     color: rgba(234, 247, 234, 1);
 }
