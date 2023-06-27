@@ -311,6 +311,7 @@ body {
 
 .btn_editTenant {
     background-color: rgb(79, 154, 177);
+    margin-left: 10px;
     color: white;
     border: none;
     border-radius: 6px;
@@ -322,6 +323,7 @@ body {
 
 .btn_deleteTenant {
     background-color: rgba(255, 71, 71, 1);
+    margin-left: 10px;
     color: white;
     border: none;
     border-radius: 6px;
