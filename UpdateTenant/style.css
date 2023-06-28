@@ -1,0 +1,101 @@
+:root {
+    font-size: small;
+    font-family: "Poppins";
+}
+
+body {
+    /* background-color: rgba(53, 113, 70, 1); */
+    background-color: rgba(214, 233, 218, 1);
+}
+
+/* title bar */
+.titleBar {
+    background-color: rgba(53, 113, 70, 1);
+    padding: 30px 40px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.title {
+    background-color: rgba(214, 233, 218, 1);
+    max-width: 500px;
+    padding: 15px 10px;
+    display: flex;
+    border-radius: 6px;
+    border: 0;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(53, 113, 70, 1);
+}
+
+/* form */
+.formBar .subtitle {
+    position: relative;
+    text-align: center;
+    min-width: 500px;
+    height: 100%;
+    color: #d6e9da;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 10px;
+    background-color: rgba(53, 113, 70, 1);
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+td {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.input-field .input {
+    color: #d6e9da;
+    width: 100%;
+    height: 35.9px;
+    left: 0px;
+    top: 0px;
+    background: rgba(49, 105, 65, 0.34);
+    border-radius: 10px;
+    margin-left: 320px;
+    padding: 5px 10px;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(214, 233, 218, 1);
+}
+
+/* button */
+.button-container {
+    position: absolute;
+    flex-direction: column;
+    bottom: 20px;
+}
+
+.buttonUpdate {
+    background-color: rgba(53, 113, 70, 1);
+    color: #d6e9da;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.buttonBatal {
+    background-color: rgba(49, 105, 65, 0.34);
+    color: #d6e9da;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(38, 82, 50, 1);
+}

@@ -1,0 +1,144 @@
+:root {
+  font-size: small;
+  font-family: "Poppins";
+}
+
+header {
+  background-color: white;
+}
+
+body {
+  /* background-color: rgba(53, 113, 70, 1); */
+  background-color: rgba(214, 233, 218, 1);
+}
+
+/* btn back */
+.btn_back{
+  font-size: 50px;
+  
+}
+
+
+
+/* form */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.boxAtas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.labelAtas {
+  position: relative;
+  height: 150px;
+  border-radius: 8px;
+  background-color: rgba(53, 113, 70, 1);
+}
+
+.menuBar {
+  position: relative;
+  width: 500px;
+  height: 70px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: #d6e9da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuBar .subtitle {
+  text-align: center;
+  color: rgba(53, 113, 70, 1);
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin: 0;
+  flex-grow: 1;
+  padding: 10px 10px;
+}
+
+/* .titleBar {
+  position: relative;
+  width: 100%;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: rgba(53, 113, 70, 1);
+} */
+
+.titleBar .subtitle {
+  position: relative;
+  text-align: center;
+  width: 100vh;
+  height: 100%;
+  color: #d6e9da;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 10px;
+  background-color: rgba(53, 113, 70, 1);
+  border-radius: 6px;
+}
+
+td {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.input-field .input {
+  color: #d6e9da;
+  width: 100%;
+  height: 35.9px;
+  left: 0px;
+  top: 0px;
+  background: rgba(49, 105, 65, 0.34);
+  border-radius: 10px;
+  margin-left: 320px;
+  padding: 5px 10px;
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(214, 233, 218, 1);
+}
+
+.button-container {
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.buttonUpdate {
+  background-color: rgba(53, 113, 70, 1);
+  color: #d6e9da;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.buttonBatal {
+  background-color: rgba(49, 105, 65, 0.34);
+  color: #d6e9da;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(38, 82, 50, 1);
+}
